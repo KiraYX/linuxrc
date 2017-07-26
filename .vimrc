@@ -14,3 +14,4 @@ endif
 " display line number
 set number
 
+set ttimeoutlen=1
