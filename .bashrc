@@ -129,6 +129,7 @@ fi
 # ROS initialize
 source /home/ian/dev/dr-ros/install_isolated/setup.bash
 source ~/catkin_ian/devel/setup.sh
+clear
 
 # ibus setup
 export GTK_IM_MODULE=ibus
