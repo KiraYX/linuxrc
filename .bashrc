@@ -69,7 +69,7 @@ if [ "$color_prompt" = yes ]; then
 #    PS1+='\$(parse_git_branch)'
 #    PS1+='\[\033[00m\]  '
 #    export PS1;
-    export PS1="${debian_chroot:+($debian_chroot)}\[\033[1;32m\]\u\[\033[0;32m\]@\[\033[1;32m\]\h \[\033[1;34m\]\w\[\033[1;33m\]\$(parse_git_branch)\[\033[1;36m\]\n \$ \[\033[00m\]"
+    export PS1="${debian_chroot:+($debian_chroot)}\[\033[1;32m\]\u\[\033[0;32m\]@\[\033[1;32m\]\h \[\033[1;34m\]\w\[\033[1;33m\]\$(parse_git_branch)\[\033[1;36m\] \$ \[\033[00m\]"
 else
 #    PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
     export PS1="${debian_chroot:+($debian_chroot)}\[\033[1;32m\]\u\[\033[0;32m\]@\[\033[1;32m\]\h \[\033[1;34m\]\w\[\033[1;33m\]\$(parse_git_branch)\[\033[1;36m\]\n \$ \[\033[00m\]"
